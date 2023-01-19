@@ -2,3 +2,4 @@
 <p> this is a blog about: <%= @blog.content%></p> 
 
       <%= link_to 'back to blog list', blogs_path%>
+      <%= button_to 'delete this blog', delete_path,method: :delete%>
